@@ -1,0 +1,26 @@
+$yellow: #ffde59;
+.container{
+    height: 75vh;
+}
+
+.img-cv{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 100%;
+    padding: 0% 15%;
+    float: right;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    color: $yellow;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    color: $yellow;
+}

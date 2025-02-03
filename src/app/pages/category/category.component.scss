@@ -1,0 +1,76 @@
+a{
+    text-decoration: none;
+    // color: white;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    z-index: 99;
+    .card-img-top{
+        border: solid thin black !important;
+    }
+}
+.card{
+    background-color: transparent;
+    border: none;
+    margin: 1%;
+    // width: 100%;
+    // height: 100%;
+    max-width: 630px;
+    max-height: 360px;
+    color: white;
+    .card-img-top{
+        border-radius: 5%;
+    }
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
+    // column-gap: 1%;
+    // margin-top: 5%;
+}
+
+
+/* RESPONSIVE CLASSES:  */
+
+/* XS Screen: */
+@media(max-width:380px){
+
+}
+
+/* Small Screen: */
+
+@media (min-width: 380px) and (max-width:550px){
+
+} 
+
+/* Medium Screen: */
+
+@media(min-width:551px) and (max-width:1370px){
+
+}
+
+/* Large Screen: */
+
+@media(min-width:1371px) and (max-width: 1600px){
+
+}
+
+/*Extra Large Screen*/
+@media(min-width: 1600px){
+
+}

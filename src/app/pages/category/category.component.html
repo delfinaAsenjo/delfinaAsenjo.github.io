@@ -1,0 +1,15 @@
+<h2 class="title">{{category.title}}</h2>
+<hr>
+
+<div class="row videos">
+   <div class="col center" *ngFor="let video of videos">
+      <div class="card" [ngClass]="{'three-cards': videoCounter > 2}" (click)="goToLink(video.url)">
+         <img class="card-img-top" [src]="video.thumbnail" alt="video-thumbnail.jpg">
+         <div class="card-body">
+            <h5 class="card-title">{{video.title}}</h5>
+            <p class="card-text">{{video.description}}</p>
+            
+         </div>
+      </div>
+   </div>
+</div>

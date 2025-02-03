@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <h1 class="title">¡Bienvenidos!</h1>
+        </div>
+    </div>
+    <div class="row categories">
+        <div class="col-5" *ngFor="let category of categories">
+            <div class="card" (click)="goToCategory(category.id)">
+                <img class="card-img-top" [src]="category.image" alt="imagen-categoría.jpg">
+                <!-- <div class="card-body">
+                    <h5 class="card-title">{{category.title}}</h5>
+
+            </div> -->
+        </div>
+    </div>
+</div>

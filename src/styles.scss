@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+$primary-purple: #AC32DC;
+$secondary-purple: #BF3CF2;
+$background-color: black;
+$yellow: #ffde59;
+
+body{
+    background-color: $background-color;
+    color: white;
+    font-family: serif !important;
+    overflow-x: hidden;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    color: $yellow;
+    text-align: center;
+}
+

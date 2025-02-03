@@ -1,0 +1,60 @@
+/*GLOBAL CLASSES:  */
+$yellow: #ffde59;
+.categories{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    margin-top: 5%;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    z-index: 99;
+    .card-img-top{
+        border: solid thin black !important;
+    }
+}
+.card{
+    border: none;
+    background-color: transparent;
+    margin: 5%;
+}
+.title{
+    font-family: serif;
+    font-size: 3rem;
+    // font-weight: bold;
+    color: $yellow;
+}
+
+
+
+/* RESPONSIVE CLASSES:  */
+
+/* XS Screen: */
+@media(max-width:380px){
+
+}
+
+/* Small Screen: */
+
+@media (min-width: 380px) and (max-width:550px){
+
+} 
+
+/* Medium Screen: */
+
+@media(min-width:551px) and (max-width:1370px){
+
+}
+
+/* Large Screen: */
+
+@media(min-width:1371px) and (max-width: 1600px){
+
+}
+
+/*Extra Large Screen*/
+@media(min-width: 1600px){
+
+}
