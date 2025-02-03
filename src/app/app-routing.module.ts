@@ -6,6 +6,8 @@ import { CategoryComponent } from './pages/category/category.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 
+
+
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'category/:id', component: CategoryComponent},
