@@ -10,6 +10,7 @@ import { CategoryComponent } from './pages/category/category.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { AboutMeComponent } from './pages/about-me/about-me.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
