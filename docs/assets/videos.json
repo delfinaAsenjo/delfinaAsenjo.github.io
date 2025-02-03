@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "JUANA Miniserie 2024",
+    "url": "https://www.youtube.com/playlist?list=PLujvxwN4w8ajpn9p1dQQQ6awYpMWyZdU7",
+    "thumbnail": "../../../assets/thumbnails/Mini Serie.jpg",
+    "category": "01"
+  },
+  {
+    "id": 2,
+    "title": "Turistango - Documental 2024",
+    "url": "https://drive.google.com/file/d/1PSq3HCB-A8vDGH2XPP0yeWvyFRsdqwKK/view",
+    "thumbnail": "../../../assets/thumbnails/Documental.jpg",
+    "category": "02"
+  },
+  {
+    "id": 3,
+    "title": "Videoclip-corto 2023 Asenjo Delfina",
+    "url": "https://www.youtube.com/watch?v=lC5lntcDA3s&ab_channel=DelfinaAsenjo",
+    "thumbnail": "../../../assets/thumbnails/Videoclip 1.jpg",
+    "category": "03"
+  },
+  {
+    "id": 4,
+    "title": "Videoclip-corto 2023 Asenjo Delfina",
+    "url": "https://www.youtube.com/watch?v=gksM1wEUwRQ&ab_channel=DelfinaAsenjo",
+    "thumbnail": "../../../assets/thumbnails/Videoclip 2.jpg",
+    "category": "03"
+  },
+  {
+    "id": 5,
+    "title": "Lomito - Publicidad",
+    "url": "https://www.instagram.com/reel/CkT5nCHDKPb/?igsh=ZTlka2NkY2trcGo%3D",
+    "thumbnail": "../../../assets/thumbnails/redes y publicidad 1.png",
+    "category": "05"
+  },
+  {
+    "id": 6,
+    "title": "Hamburguesa - Publicidad",
+    "url": "https://www.instagram.com/reel/CkB7zN5J28r/?igsh=M3BreGgwbHl0bjZn",
+    "thumbnail": "../../../assets/thumbnails/redes y publicidad 2.png",
+    "category": "05"
+  },
+  {
+    "id": 7,
+    "title": "\"No lx dejes solx\" Collage animado en Photoshop",
+    "url": "https://www.youtube.com/watch?v=rBGYZTczKqc&ab_channel=DelfinaAsenjo",
+    "thumbnail": "../../../assets/thumbnails/Animación 3.jpg",
+    "category": "04"
+  },
+  {
+    "id": 8,
+    "title": "\"Mi Maldito Totoro\" PIXILATION 2022",
+    "url": "https://www.youtube.com/watch?v=RC2Aq_BJvXE&ab_channel=DelfinaAsenjo",
+    "thumbnail": "../../../assets/thumbnails/Animación 1.jpg",
+    "category": "04"
+  },
+  {
+    "id": 9,
+    "title": "Collage Fotográfico- After Effects",
+    "url": "https://www.youtube.com/watch?v=sr8RTtktYIE&ab_channel=DelfinaAsenjo",
+    "thumbnail": "../../../assets/thumbnails/Foto Portada Animación 2.jpg",
+    "category": "04"
+  }
+]
