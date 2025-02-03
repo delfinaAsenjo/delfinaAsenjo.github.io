@@ -5,6 +5,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+
 
 
 
