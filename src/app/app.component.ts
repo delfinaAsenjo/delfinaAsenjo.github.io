@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +8,21 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'portfolioDelfina';
-  constructor(private router: Router) { }
+  // constructor(private router: Router) { }
 
-  ngOnInit(): void {
+  constructor(private router: Router, private route: ActivatedRoute) {}
+
+  ngOnInit() {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        const fragment = this.router.url.split('#')[1];
-        if (fragment) {
-          document.getElementById(fragment)?.scrollIntoView({ behavior: 'smooth' });
-        }
+        this.route.queryParams.subscribe(params => {
+          const fragment = params['scrollTo'];
+          if (fragment) {
+            setTimeout(() => {
+              document.getElementById(fragment)?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+          }
+        });
       }
     });
   }
