@@ -7,7 +7,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolioDelfina';
+  title = 'Mi Portafolio - Delfina Asenjo';
   // constructor(private router: Router) { }
 
   constructor(private router: Router, private route: ActivatedRoute) {}
